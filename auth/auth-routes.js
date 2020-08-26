@@ -1,6 +1,6 @@
 const express = require("express");
 const Lessons = require("../models/dbHelpers");
-const bcrypt = require("bcryptjs");
+// const bcrypt = require("bcryptjs");
 const generateToken = require("./generateToken");
 
 const router = express.Router();
